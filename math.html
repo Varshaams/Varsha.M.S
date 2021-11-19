@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> input and output</title>
+   </head>
+   <body>
+      <p>
+         <img id="classicon" src="bing.com/news"
+      </p>
+      <script>
+      var num=Math.floor(Math.random()* 25)+1;
+      var iconFilename='news/';
+      if(num<10)
+      iconFilename +='2'  +num +'.prm';
+      else
+      iconFilename +='3' +num +'.prm';
+      document.write(iconFilename);
+      document.getElementById("weathericon").src=iconFilename;
+      </script>
+   </body>
+</html>
